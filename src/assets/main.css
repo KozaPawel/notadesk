@@ -1,0 +1,11 @@
+@import '98.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-inner {
+  box-shadow:
+    inset -1px -1px #dfdfdf,
+    inset 1px 1px grey;
+}
